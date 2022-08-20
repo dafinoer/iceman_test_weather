@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "6751526286",
+    "firebase_url": "https://iceman-default-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "iceman-default",
+    "storage_bucket": "iceman-default.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6751526286:android:6184df12977bd74d5a18df",
+        "android_client_info": {
+          "package_name": "com.iceman.weather.iceman_weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6751526286-bf9bd90b0elrc3o8rd3ivd1oticeq3ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9TDoZhjqQ-SnGyUSmY5f4K88Q7pmiYr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6751526286-bf9bd90b0elrc3o8rd3ivd1oticeq3ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
