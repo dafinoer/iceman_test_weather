@@ -37,11 +37,14 @@ dependencies:
   flutter_bloc: ^8.1.1
   equatable: ^2.0.3
   intl: ^0.17.0
+  onesignal_flutter: ^3.4.1
 
   weather_core:
     path: packages/weather_core
   weather_repository_remote:
     path: packages/weather_repository_remote
+  weather_repository_notification:
+    path: packages/weather_repository_notification
 
 dev_dependencies:
   bloc_test: ^9.1.0

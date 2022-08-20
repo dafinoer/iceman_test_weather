@@ -284,6 +284,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+  onesignal_flutter:
+    dependency: "direct main"
+    description:
+      name: onesignal_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.4.1"
   package_config:
     dependency: transitive
     description:
@@ -319,6 +326,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.1"
+  rxdart:
+    dependency: transitive
+    description:
+      name: rxdart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.27.5"
   shelf:
     dependency: transitive
     description:
@@ -457,6 +471,13 @@ packages:
       relative: true
     source: path
     version: "1.0.0"
+  weather_repository_notification:
+    dependency: "direct main"
+    description:
+      path: "packages/weather_repository_notification"
+      relative: true
+    source: path
+    version: "0.0.1"
   weather_repository_remote:
     dependency: "direct main"
     description:
