@@ -31,5 +31,10 @@ class ForecastWeatherService implements WeatherRepository {
   }
 
   @override
-  Future<Weather?> getWeather(double lat, double lon) async => null;
+  Future<Weather?> getWeather(double lat, double lon) async {
+    final response = await dio.get('/2.5/weather',
+        queryParameters: {'lat': lat, 'lon': lon, 'units': 'metric'});
+    final weather = weather_forecast.Weather.fromJson(response.data).toEntity();
+    return weather;
+  }
 }
