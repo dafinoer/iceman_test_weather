@@ -10,6 +10,18 @@ class HomeWeathersCubit extends Cubit<HomeWeathersState> {
 
   HomeWeathersCubit(this._forecastRepository) : super(HomeWeathersInitial());
 
+  void loadSingleWeather() async {
+    try {
+      emit(const HomeWeatherLoading());
+      const lat = -6.175264434324154;
+      const lon = 106.82716351126447;
+      final result = await _forecastRepository.getWeather(lat, lon);
+      if (result != null) emit(HomeSingleWeatherSucces(result));
+    } catch (e) {
+      emit(const HomeWeatherError());
+    }
+  }
+
   void loadWeathers() async {
     try {
       emit(const HomeWeatherLoading());
