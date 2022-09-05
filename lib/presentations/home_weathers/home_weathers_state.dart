@@ -25,6 +25,15 @@ class HomeWeatherSuccess extends HomeWeathersState {
   List<Object?> get props => [weathers];
 }
 
+class HomeSingleWeatherSucces extends HomeWeathersState {
+  final Weather weather;
+
+  const HomeSingleWeatherSucces(this.weather);
+
+  @override
+  List<Object?> get props => [weather];
+}
+
 class HomeWeatherError extends HomeWeathersState {
   const HomeWeatherError();
 
